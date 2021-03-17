@@ -1,0 +1,61 @@
+  html, body {
+    height: 100%;
+    color: #61DAFB;
+    background: #2D2D2D;
+  }
+
+  .container{    
+    border: 1px solid green;
+    background-color: honeydew;
+    border-radius: 5px;
+    width: 80%;
+    min-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-height: 80px;
+    margin-top: 40px;
+  }
+
+  .alinhaSpaceAround{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 18px;
+  }
+
+  .alinhaSpaceBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;    
+  }
+
+  .inputTexto{
+    width: 44%;
+    min-width: 100px;
+    margin: 5px;
+    float: left;    
+  }
+
+  .buttonTexto{
+    height: 34px;
+    width: 49%;
+    min-width: 150px;
+    /* display: flex; */
+    float: left;
+    text-align: center;
+    margin: 5px;
+    margin-right: 25px;
+  }
+
+  .inputCheckbox{
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+
+  .buttonDelete{
+    margin-right: 40px;
+    border-radius: 2px;
+  }
